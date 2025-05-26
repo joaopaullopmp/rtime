@@ -1,0 +1,846 @@
+2025-05-07 09:57:27,029 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-07 09:57:56,255 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-07 09:57:56,341 - INFO - Iniciando a geração do relatório PDF.
+2025-05-07 09:57:58,080 - INFO - Período de consulta: de 2025-04-01 até 2025-04-30 23:59:59
+2025-05-07 09:57:58,116 - INFO - Período de consulta 2: de 2025-04-01 até 2025-04-30 23:59:59
+2025-05-07 09:57:58,123 - INFO - Total de Horas 67.98333333333333
+2025-05-07 09:57:58,151 - INFO - Período de consulta 2: de 2025-04-01 até 2025-04-30 23:59:59
+2025-05-07 09:57:58,156 - INFO - Total de Horas 0
+2025-05-07 09:57:58,184 - INFO - Período de consulta 2: de 2025-04-01 até 2025-04-30 23:59:59
+2025-05-07 09:57:58,190 - INFO - Total de Horas 133.03333333333333
+2025-05-07 09:57:58,217 - INFO - Período de consulta 2: de 2025-04-01 até 2025-04-30 23:59:59
+2025-05-07 09:57:58,222 - INFO - Total de Horas 31.5
+2025-05-07 09:57:58,230 - INFO - Finalizando a geração do PDF.
+2025-05-07 09:57:58,245 - INFO - PDF gerado com sucesso.
+2025-05-11 19:31:56,878 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-12 11:26:46,362 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-12 11:27:11,259 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-12 11:27:11,371 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-12 11:27:15,774 - INFO - PDF gerado com sucesso.
+2025-05-12 11:27:22,388 - ERROR - Erro ao enviar email: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PA7P264CA0224.FRAP264.PROD.OUTLOOK.COM 2025-05-12T10:27:22.367Z 08DD8FC6FDB13851]')
+2025-05-12 11:27:22,407 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\project_email_report.py", line 1207, in send_email
+    server.login(smtp_user, smtp_password)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PA7P264CA0224.FRAP264.PROD.OUTLOOK.COM 2025-05-12T10:27:22.367Z 08DD8FC6FDB13851]')
+
+2025-05-12 11:27:36,162 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-12 12:32:29,842 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-12 12:32:51,071 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-12 12:32:51,194 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-12 12:32:55,671 - INFO - PDF gerado com sucesso.
+2025-05-12 12:33:01,560 - ERROR - Erro ao enviar email: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PR0P264CA0272.FRAP264.PROD.OUTLOOK.COM 2025-05-12T11:33:01.540Z 08DD8FBA0ED8EAC8]')
+2025-05-12 12:33:01,563 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\project_email_report.py", line 1221, in send_email
+    server.login(smtp_user, smtp_password)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PR0P264CA0272.FRAP264.PROD.OUTLOOK.COM 2025-05-12T11:33:01.540Z 08DD8FBA0ED8EAC8]')
+
+2025-05-12 12:33:03,455 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-13 10:48:31,127 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-13 10:49:46,701 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-13 10:49:46,829 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-13 10:49:51,137 - INFO - PDF gerado com sucesso.
+2025-05-13 16:33:29,473 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-13 16:33:52,473 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-13 16:33:52,587 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-13 16:33:59,321 - INFO - PDF gerado com sucesso.
+2025-05-13 16:34:05,748 - ERROR - Erro ao enviar email: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PR0P264CA0118.FRAP264.PROD.OUTLOOK.COM 2025-05-13T15:34:05.728Z 08DD8BAFF32BCE7D]')
+2025-05-13 16:34:05,798 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\project_email_report.py", line 1221, in send_email
+    server.login(smtp_user, smtp_password)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PR0P264CA0118.FRAP264.PROD.OUTLOOK.COM 2025-05-13T15:34:05.728Z 08DD8BAFF32BCE7D]')
+
+2025-05-13 16:34:08,103 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-16 10:05:47,018 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-16 10:06:06,832 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-16 10:06:11,307 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-16 10:06:13,744 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-16 10:06:33,721 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-16 10:06:50,378 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-16 10:06:54,777 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-16 10:08:01,589 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-16 10:08:01,749 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-16 10:08:04,379 - INFO - PDF gerado com sucesso.
+2025-05-16 11:39:38,409 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-18 18:33:16,993 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-18 18:33:30,635 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-18 18:33:47,103 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-18 18:33:56,429 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-18 18:33:59,346 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-19 13:25:44,488 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-19 14:41:17,444 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-19 14:41:23,615 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-19 14:41:57,848 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-19 14:41:57,942 - INFO - Iniciando a geração do relatório PDF.
+2025-05-19 14:41:59,697 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,734 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,741 - INFO - Total de Horas 0
+2025-05-19 14:41:59,759 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,763 - INFO - Total de Horas 0
+2025-05-19 14:41:59,781 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,785 - INFO - Total de Horas 0
+2025-05-19 14:41:59,803 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,808 - INFO - Total de Horas 40.25
+2025-05-19 14:41:59,828 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,832 - INFO - Total de Horas 4.75
+2025-05-19 14:41:59,852 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,856 - INFO - Total de Horas 72.0
+2025-05-19 14:41:59,875 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,879 - INFO - Total de Horas 0
+2025-05-19 14:41:59,897 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,902 - INFO - Total de Horas 46.0
+2025-05-19 14:41:59,922 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,927 - INFO - Total de Horas 86.31666666666668
+2025-05-19 14:41:59,947 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,953 - INFO - Total de Horas 0
+2025-05-19 14:41:59,974 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:41:59,978 - INFO - Total de Horas 58.666666666666664
+2025-05-19 14:42:00,000 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,004 - INFO - Total de Horas 73.75
+2025-05-19 14:42:00,029 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,033 - INFO - Total de Horas 0
+2025-05-19 14:42:00,051 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,057 - INFO - Total de Horas 62.75
+2025-05-19 14:42:00,077 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,082 - INFO - Total de Horas 34.5
+2025-05-19 14:42:00,102 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,107 - INFO - Total de Horas 0
+2025-05-19 14:42:00,125 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,129 - INFO - Total de Horas 43.0
+2025-05-19 14:42:00,150 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,154 - INFO - Total de Horas 83.0
+2025-05-19 14:42:00,174 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,178 - INFO - Total de Horas 0
+2025-05-19 14:42:00,198 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,202 - INFO - Total de Horas 81.25
+2025-05-19 14:42:00,222 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,226 - INFO - Total de Horas 47.2
+2025-05-19 14:42:00,250 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,255 - INFO - Total de Horas 76.0
+2025-05-19 14:42:00,274 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,280 - INFO - Total de Horas 51.25
+2025-05-19 14:42:00,299 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,303 - INFO - Total de Horas 0
+2025-05-19 14:42:00,323 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,327 - INFO - Total de Horas 0
+2025-05-19 14:42:00,351 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,358 - INFO - Total de Horas 24.5
+2025-05-19 14:42:00,390 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,396 - INFO - Total de Horas 0
+2025-05-19 14:42:00,425 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,432 - INFO - Total de Horas 61.21666666666667
+2025-05-19 14:42:00,462 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,468 - INFO - Total de Horas 0
+2025-05-19 14:42:00,490 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,496 - INFO - Total de Horas 0
+2025-05-19 14:42:00,517 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,521 - INFO - Total de Horas 37.66666666666667
+2025-05-19 14:42:00,541 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,546 - INFO - Total de Horas 0
+2025-05-19 14:42:00,564 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,568 - INFO - Total de Horas 0
+2025-05-19 14:42:00,587 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,591 - INFO - Total de Horas 14.0
+2025-05-19 14:42:00,611 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,616 - INFO - Total de Horas 49.0
+2025-05-19 14:42:00,635 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,641 - INFO - Total de Horas 100.0
+2025-05-19 14:42:00,660 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,664 - INFO - Total de Horas 88.0
+2025-05-19 14:42:00,684 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,689 - INFO - Total de Horas 87.75
+2025-05-19 14:42:00,707 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,712 - INFO - Total de Horas 70.76666666666667
+2025-05-19 14:42:00,730 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,734 - INFO - Total de Horas 0
+2025-05-19 14:42:00,752 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,756 - INFO - Total de Horas 0
+2025-05-19 14:42:00,774 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,779 - INFO - Total de Horas 0
+2025-05-19 14:42:00,803 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,809 - INFO - Total de Horas 0
+2025-05-19 14:42:00,832 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,838 - INFO - Total de Horas 0
+2025-05-19 14:42:00,859 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,866 - INFO - Total de Horas 82.58333333333334
+2025-05-19 14:42:00,890 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,894 - INFO - Total de Horas 69.0
+2025-05-19 14:42:00,914 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,919 - INFO - Total de Horas 88.0
+2025-05-19 14:42:00,941 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,946 - INFO - Total de Horas 0
+2025-05-19 14:42:00,967 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,973 - INFO - Total de Horas 76.15
+2025-05-19 14:42:00,993 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:00,999 - INFO - Total de Horas 0
+2025-05-19 14:42:01,017 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:01,021 - INFO - Total de Horas 0
+2025-05-19 14:42:01,041 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:01,045 - INFO - Total de Horas 0
+2025-05-19 14:42:01,066 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-19 14:42:01,070 - INFO - Total de Horas 93.0
+2025-05-19 14:42:01,095 - INFO - Finalizando a geração do PDF.
+2025-05-19 14:42:01,113 - INFO - PDF gerado com sucesso.
+2025-05-19 14:42:06,921 - ERROR - Erro ao enviar email: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PA7P264CA0197.FRAP264.PROD.OUTLOOK.COM 2025-05-19T13:42:06.902Z 08DD95F1B8140AD6]')
+2025-05-19 14:42:06,948 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\collaborator_email_report.py", line 1258, in send_email
+    server.login(smtp_user, smtp_password)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PA7P264CA0197.FRAP264.PROD.OUTLOOK.COM 2025-05-19T13:42:06.902Z 08DD95F1B8140AD6]')
+
+2025-05-19 18:11:42,325 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 15:49:11,563 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 16:15:49,822 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 16:17:48,568 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 16:17:48,670 - INFO - Iniciando a geração do relatório PDF.
+2025-05-21 16:17:50,635 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,664 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,672 - INFO - Total de Horas 0
+2025-05-21 16:17:50,706 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,711 - INFO - Total de Horas 0
+2025-05-21 16:17:50,736 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,742 - INFO - Total de Horas 0
+2025-05-21 16:17:50,763 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,769 - INFO - Total de Horas 40.25
+2025-05-21 16:17:50,790 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,795 - INFO - Total de Horas 4.75
+2025-05-21 16:17:50,817 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,822 - INFO - Total de Horas 72.0
+2025-05-21 16:17:50,843 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,848 - INFO - Total de Horas 0
+2025-05-21 16:17:50,869 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,874 - INFO - Total de Horas 46.0
+2025-05-21 16:17:50,895 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,900 - INFO - Total de Horas 86.31666666666668
+2025-05-21 16:17:50,922 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,927 - INFO - Total de Horas 0
+2025-05-21 16:17:50,948 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,953 - INFO - Total de Horas 70.30000000000001
+2025-05-21 16:17:50,974 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:50,981 - INFO - Total de Horas 86.75
+2025-05-21 16:17:51,003 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,008 - INFO - Total de Horas 0
+2025-05-21 16:17:51,028 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,033 - INFO - Total de Horas 62.75
+2025-05-21 16:17:51,055 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,060 - INFO - Total de Horas 34.5
+2025-05-21 16:17:51,081 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,088 - INFO - Total de Horas 0
+2025-05-21 16:17:51,110 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,115 - INFO - Total de Horas 43.0
+2025-05-21 16:17:51,137 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,142 - INFO - Total de Horas 83.0
+2025-05-21 16:17:51,167 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,173 - INFO - Total de Horas 0
+2025-05-21 16:17:51,197 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,203 - INFO - Total de Horas 81.25
+2025-05-21 16:17:51,234 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,239 - INFO - Total de Horas 54.95
+2025-05-21 16:17:51,261 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,266 - INFO - Total de Horas 81.5
+2025-05-21 16:17:51,287 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,292 - INFO - Total de Horas 54.75
+2025-05-21 16:17:51,316 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,321 - INFO - Total de Horas 0
+2025-05-21 16:17:51,343 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,348 - INFO - Total de Horas 0
+2025-05-21 16:17:51,369 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,374 - INFO - Total de Horas 28.5
+2025-05-21 16:17:51,396 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,402 - INFO - Total de Horas 0
+2025-05-21 16:17:51,423 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,428 - INFO - Total de Horas 69.71666666666667
+2025-05-21 16:17:51,449 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,453 - INFO - Total de Horas 0
+2025-05-21 16:17:51,475 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,479 - INFO - Total de Horas 0
+2025-05-21 16:17:51,502 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,509 - INFO - Total de Horas 46.16666666666667
+2025-05-21 16:17:51,531 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,536 - INFO - Total de Horas 0
+2025-05-21 16:17:51,563 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,568 - INFO - Total de Horas 0
+2025-05-21 16:17:51,589 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,593 - INFO - Total de Horas 14.0
+2025-05-21 16:17:51,622 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,628 - INFO - Total de Horas 91.0
+2025-05-21 16:17:51,650 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,655 - INFO - Total de Horas 100.0
+2025-05-21 16:17:51,676 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,681 - INFO - Total de Horas 103.75
+2025-05-21 16:17:51,704 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,710 - INFO - Total de Horas 103.75
+2025-05-21 16:17:51,732 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,738 - INFO - Total de Horas 77.76666666666667
+2025-05-21 16:17:51,760 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,764 - INFO - Total de Horas 0
+2025-05-21 16:17:51,784 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,789 - INFO - Total de Horas 0
+2025-05-21 16:17:51,809 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,813 - INFO - Total de Horas 0
+2025-05-21 16:17:51,833 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,838 - INFO - Total de Horas 0
+2025-05-21 16:17:51,859 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,864 - INFO - Total de Horas 0
+2025-05-21 16:17:51,892 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,898 - INFO - Total de Horas 97.66666666666666
+2025-05-21 16:17:51,928 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,934 - INFO - Total de Horas 83.0
+2025-05-21 16:17:51,964 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:51,971 - INFO - Total de Horas 104.0
+2025-05-21 16:17:52,000 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,006 - INFO - Total de Horas 0
+2025-05-21 16:17:52,035 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,041 - INFO - Total de Horas 88.81666666666666
+2025-05-21 16:17:52,071 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,077 - INFO - Total de Horas 0
+2025-05-21 16:17:52,109 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,115 - INFO - Total de Horas 0
+2025-05-21 16:17:52,137 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,142 - INFO - Total de Horas 0
+2025-05-21 16:17:52,163 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,171 - INFO - Total de Horas 109.0
+2025-05-21 16:17:52,200 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:17:52,206 - INFO - Total de Horas 0
+2025-05-21 16:17:52,221 - INFO - Finalizando a geração do PDF.
+2025-05-21 16:17:52,242 - INFO - PDF gerado com sucesso.
+2025-05-21 16:17:58,067 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 16:18:22,030 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 16:18:22,130 - INFO - Iniciando a geração do relatório PDF.
+2025-05-21 16:18:24,029 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,064 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,069 - INFO - Total de Horas 81.5
+2025-05-21 16:18:24,093 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,101 - INFO - Total de Horas 28.5
+2025-05-21 16:18:24,127 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,132 - INFO - Total de Horas 69.71666666666667
+2025-05-21 16:18:24,153 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,157 - INFO - Total de Horas 0
+2025-05-21 16:18:24,179 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,186 - INFO - Total de Horas 0
+2025-05-21 16:18:24,218 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,226 - INFO - Total de Horas 83.0
+2025-05-21 16:18:24,251 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 16:18:24,256 - INFO - Total de Horas 88.81666666666666
+2025-05-21 16:18:24,261 - INFO - Finalizando a geração do PDF.
+2025-05-21 16:18:24,275 - INFO - PDF gerado com sucesso.
+2025-05-21 16:18:30,498 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 16:21:55,003 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-21 16:22:18,130 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-21 16:22:18,242 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-21 16:22:22,220 - INFO - PDF gerado com sucesso.
+2025-05-21 16:24:12,781 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-21 16:24:12,897 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-21 16:24:15,503 - INFO - PDF gerado com sucesso.
+2025-05-21 16:32:59,402 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:33:28,883 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:33:28,915 - INFO - Iniciando a geração do relatório PDF de faturação.
+2025-05-21 16:33:30,799 - INFO - Obtendo indicadores de faturação para o período 2025-05-01 16:33:28.909914 a 2025-05-31 16:33:28.909914.
+2025-05-21 16:33:30,799 - INFO - Análise: Faturação Total, Equipes: ['Tech']
+2025-05-21 16:33:30,818 - WARNING - Não foram encontradas faturas no período 2025-05-01 16:33:28.909914 a 2025-05-31 16:33:28.909914.
+2025-05-21 16:33:30,836 - INFO - PDF anexado ao email: C:\Windows\TEMP\tmpxsoy7puc\relatorio_indicadores_faturacao.pdf
+2025-05-21 16:33:30,837 - WARNING - Arquivo Excel não encontrado em None
+2025-05-21 16:33:31,857 - INFO - Email enviado com sucesso para joaocoutinho@grupoerre.pt!
+2025-05-21 16:34:05,042 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:34:05,076 - INFO - Iniciando a geração do relatório PDF de faturação.
+2025-05-21 16:34:07,009 - INFO - Obtendo indicadores de faturação para o período 2025-05-01 16:34:05.069432 a 2025-05-31 16:34:05.069432.
+2025-05-21 16:34:07,009 - INFO - Análise: Faturação por Equipa, Equipes: ['Tech']
+2025-05-21 16:34:07,029 - WARNING - Não foram encontradas faturas no período 2025-05-01 16:34:05.069432 a 2025-05-31 16:34:05.069432.
+2025-05-21 16:34:07,050 - INFO - PDF anexado ao email: C:\Windows\TEMP\tmppzsfn81f\relatorio_indicadores_faturacao.pdf
+2025-05-21 16:34:07,051 - WARNING - Arquivo Excel não encontrado em None
+2025-05-21 16:34:08,390 - INFO - Email enviado com sucesso para joaocoutinho@grupoerre.pt!
+2025-05-21 16:34:31,141 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:34:31,173 - INFO - Iniciando a geração do relatório PDF de faturação.
+2025-05-21 16:34:33,046 - INFO - Obtendo indicadores de faturação para o período 2025-02-01 00:00:00 a 2025-05-31 16:34:31.167119.
+2025-05-21 16:34:33,046 - INFO - Análise: Faturação por Equipa, Equipes: ['Tech']
+2025-05-21 16:34:33,088 - INFO - Indicadores de faturação obtidos com sucesso. 1 itens no resumo.
+2025-05-21 16:34:33,090 - ERROR - Erro ao gerar PDF de faturação: list indices must be integers or slices, not numpy.float64
+2025-05-21 16:34:33,135 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\revenue_email_report.py", line 881, in generate_revenue_pdf_report
+    month_name = calendar.month_name[monthly_item.get('month', 1)]
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\calendar.py", line 103, in __getitem__
+    funcs = self._months[i]
+            ~~~~~~~~~~~~^^^
+TypeError: list indices must be integers or slices, not numpy.float64
+
+2025-05-21 16:34:40,551 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:34:40,583 - INFO - Iniciando a geração do relatório PDF de faturação.
+2025-05-21 16:34:42,414 - INFO - Obtendo indicadores de faturação para o período 2025-02-01 00:00:00 a 2025-05-31 16:34:40.577106.
+2025-05-21 16:34:42,414 - INFO - Análise: Faturação por Equipa, Equipes: ['Tech']
+2025-05-21 16:34:42,445 - INFO - Indicadores de faturação obtidos com sucesso. 1 itens no resumo.
+2025-05-21 16:34:42,446 - INFO - Finalizando a geração do PDF de faturação.
+2025-05-21 16:34:42,447 - ERROR - Erro ao gerar PDF de faturação: 'latin-1' codec can't encode character '\u20ac' in position 1248: ordinal not in range(256)
+2025-05-21 16:34:42,471 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\revenue_email_report.py", line 1009, in generate_revenue_pdf_report
+    pdf.output(output_path)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 1065, in output
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 246, in close
+    self._enddoc()
+    ~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 1636, in _enddoc
+    self._putpages()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 1170, in _putpages
+    p = self.pages[n].encode("latin1") if PY3K else self.pages[n]
+        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 1248: ordinal not in range(256)
+
+2025-05-21 16:34:48,917 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:34:48,958 - INFO - Iniciando a geração do relatório PDF de faturação.
+2025-05-21 16:34:50,855 - INFO - Obtendo indicadores de faturação para o período 2025-02-01 00:00:00 a 2025-05-31 16:34:48.949212.
+2025-05-21 16:34:50,855 - INFO - Análise: Faturação Total, Equipes: ['Tech']
+2025-05-21 16:34:50,893 - INFO - Indicadores de faturação obtidos com sucesso. 1 itens no resumo.
+2025-05-21 16:34:50,895 - INFO - Finalizando a geração do PDF de faturação.
+2025-05-21 16:34:50,895 - ERROR - Erro ao gerar PDF de faturação: 'latin-1' codec can't encode character '\u20ac' in position 1162: ordinal not in range(256)
+2025-05-21 16:34:50,897 - ERROR - Traceback (most recent call last):
+  File "C:\APP\rperform\revenue_email_report.py", line 1009, in generate_revenue_pdf_report
+    pdf.output(output_path)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 1065, in output
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 246, in close
+    self._enddoc()
+    ~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 1636, in _enddoc
+    self._putpages()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\site-packages\fpdf\fpdf.py", line 1170, in _putpages
+    p = self.pages[n].encode("latin1") if PY3K else self.pages[n]
+        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 1162: ordinal not in range(256)
+
+2025-05-21 16:35:28,071 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:35:28,102 - INFO - Obtendo indicadores de faturação para o período 2025-02-01 00:00:00 a 2025-05-31 16:35:28.095870.
+2025-05-21 16:35:28,102 - INFO - Análise: Faturação Total, Equipes: ['Tech']
+2025-05-21 16:35:28,133 - INFO - Indicadores de faturação obtidos com sucesso. 1 itens no resumo.
+2025-05-21 16:35:28,180 - INFO - Excel de faturação gerado com sucesso: C:\Windows\TEMP\tmp7_1sqtom\relatorio_indicadores_faturacao.xlsx
+2025-05-21 16:35:28,181 - WARNING - Arquivo PDF não encontrado em None
+2025-05-21 16:35:28,200 - INFO - Excel anexado ao email: C:\Windows\TEMP\tmp7_1sqtom\relatorio_indicadores_faturacao.xlsx
+2025-05-21 16:35:29,261 - INFO - Email enviado com sucesso para joaocoutinho@grupoerre.pt!
+2025-05-21 16:36:16,763 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:36:16,793 - INFO - Obtendo indicadores de faturação para o período 2025-01-01 00:00:00 a 2025-12-31 00:00:00.
+2025-05-21 16:36:16,794 - INFO - Análise: Faturação Total, Equipes: ['Tech']
+2025-05-21 16:36:16,826 - INFO - Indicadores de faturação obtidos com sucesso. 1 itens no resumo.
+2025-05-21 16:36:16,866 - INFO - Excel de faturação gerado com sucesso: C:\Windows\TEMP\tmpolsh1pnc\relatorio_indicadores_faturacao.xlsx
+2025-05-21 16:36:16,868 - WARNING - Arquivo PDF não encontrado em None
+2025-05-21 16:36:16,895 - INFO - Excel anexado ao email: C:\Windows\TEMP\tmpolsh1pnc\relatorio_indicadores_faturacao.xlsx
+2025-05-21 16:36:18,099 - INFO - Email enviado com sucesso para joaocoutinho@grupoerre.pt!
+2025-05-21 16:36:23,363 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:37:21,958 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-21 16:37:21,993 - INFO - Obtendo indicadores de faturação para o período 2025-01-01 00:00:00 a 2025-12-31 00:00:00.
+2025-05-21 16:37:21,994 - INFO - Análise: Faturação Total, Equipes: ['Tech', 'Boost', 'LRB', 'Design']
+2025-05-21 16:37:22,028 - INFO - Indicadores de faturação obtidos com sucesso. 1 itens no resumo.
+2025-05-21 16:37:22,079 - INFO - Excel de faturação gerado com sucesso: C:\Windows\TEMP\tmpp3f5tqam\relatorio_indicadores_faturacao.xlsx
+2025-05-21 16:37:22,080 - WARNING - Arquivo PDF não encontrado em None
+2025-05-21 16:37:22,101 - INFO - Excel anexado ao email: C:\Windows\TEMP\tmpp3f5tqam\relatorio_indicadores_faturacao.xlsx
+2025-05-21 16:37:23,026 - INFO - Email enviado com sucesso para joaocoutinho@grupoerre.pt!
+2025-05-21 17:36:25,859 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 17:49:07,742 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 17:54:47,006 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 17:56:34,171 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-21 17:56:34,291 - INFO - Iniciando a geração do relatório PDF.
+2025-05-21 17:56:36,203 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,234 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,240 - INFO - Total de Horas 81.5
+2025-05-21 17:56:36,262 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,267 - INFO - Total de Horas 28.5
+2025-05-21 17:56:36,291 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,296 - INFO - Total de Horas 80.96666666666667
+2025-05-21 17:56:36,317 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,322 - INFO - Total de Horas 0
+2025-05-21 17:56:36,342 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,348 - INFO - Total de Horas 0
+2025-05-21 17:56:36,368 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,373 - INFO - Total de Horas 83.0
+2025-05-21 17:56:36,401 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-21 17:56:36,408 - INFO - Total de Horas 91.31666666666666
+2025-05-21 17:56:36,413 - INFO - Finalizando a geração do PDF.
+2025-05-21 17:56:36,426 - INFO - PDF gerado com sucesso.
+2025-05-21 20:14:46,188 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 11:03:03,674 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 11:43:20,828 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 11:44:06,160 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 11:44:06,275 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 11:44:08,240 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,269 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,274 - INFO - Total de Horas 0
+2025-05-22 11:44:08,295 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,300 - INFO - Total de Horas 0
+2025-05-22 11:44:08,320 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,325 - INFO - Total de Horas 0
+2025-05-22 11:44:08,344 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,351 - INFO - Total de Horas 40.25
+2025-05-22 11:44:08,374 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,379 - INFO - Total de Horas 4.75
+2025-05-22 11:44:08,401 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,407 - INFO - Total de Horas 72.0
+2025-05-22 11:44:08,429 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,434 - INFO - Total de Horas 0
+2025-05-22 11:44:08,456 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,462 - INFO - Total de Horas 46.0
+2025-05-22 11:44:08,490 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,496 - INFO - Total de Horas 86.31666666666668
+2025-05-22 11:44:08,521 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,527 - INFO - Total de Horas 0
+2025-05-22 11:44:08,554 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,560 - INFO - Total de Horas 70.30000000000001
+2025-05-22 11:44:08,581 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,587 - INFO - Total de Horas 96.25
+2025-05-22 11:44:08,611 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,616 - INFO - Total de Horas 0
+2025-05-22 11:44:08,637 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,643 - INFO - Total de Horas 62.75
+2025-05-22 11:44:08,666 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,671 - INFO - Total de Horas 34.5
+2025-05-22 11:44:08,694 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,699 - INFO - Total de Horas 0
+2025-05-22 11:44:08,719 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,726 - INFO - Total de Horas 43.0
+2025-05-22 11:44:08,757 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,763 - INFO - Total de Horas 83.0
+2025-05-22 11:44:08,786 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,791 - INFO - Total de Horas 0
+2025-05-22 11:44:08,812 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,817 - INFO - Total de Horas 81.25
+2025-05-22 11:44:08,838 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,843 - INFO - Total de Horas 70.45
+2025-05-22 11:44:08,865 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,870 - INFO - Total de Horas 87.0
+2025-05-22 11:44:08,892 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,897 - INFO - Total de Horas 61.0
+2025-05-22 11:44:08,920 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,925 - INFO - Total de Horas 0
+2025-05-22 11:44:08,946 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,951 - INFO - Total de Horas 0
+2025-05-22 11:44:08,974 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:08,979 - INFO - Total de Horas 28.5
+2025-05-22 11:44:09,001 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,007 - INFO - Total de Horas 0
+2025-05-22 11:44:09,028 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,033 - INFO - Total de Horas 80.96666666666667
+2025-05-22 11:44:09,058 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,063 - INFO - Total de Horas 0
+2025-05-22 11:44:09,085 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,090 - INFO - Total de Horas 0
+2025-05-22 11:44:09,113 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,118 - INFO - Total de Horas 46.16666666666667
+2025-05-22 11:44:09,141 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,146 - INFO - Total de Horas 0
+2025-05-22 11:44:09,168 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,173 - INFO - Total de Horas 0
+2025-05-22 11:44:09,194 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,199 - INFO - Total de Horas 14.0
+2025-05-22 11:44:09,222 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,227 - INFO - Total de Horas 91.0
+2025-05-22 11:44:09,250 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,256 - INFO - Total de Horas 100.0
+2025-05-22 11:44:09,282 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,287 - INFO - Total de Horas 111.75
+2025-05-22 11:44:09,310 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,315 - INFO - Total de Horas 112.25
+2025-05-22 11:44:09,341 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,346 - INFO - Total de Horas 79.35
+2025-05-22 11:44:09,369 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,375 - INFO - Total de Horas 0
+2025-05-22 11:44:09,398 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,403 - INFO - Total de Horas 0
+2025-05-22 11:44:09,428 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,433 - INFO - Total de Horas 0
+2025-05-22 11:44:09,456 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,461 - INFO - Total de Horas 0
+2025-05-22 11:44:09,481 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,485 - INFO - Total de Horas 0
+2025-05-22 11:44:09,507 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,511 - INFO - Total de Horas 105.16666666666667
+2025-05-22 11:44:09,534 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,540 - INFO - Total de Horas 83.0
+2025-05-22 11:44:09,562 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,569 - INFO - Total de Horas 104.0
+2025-05-22 11:44:09,592 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,597 - INFO - Total de Horas 0
+2025-05-22 11:44:09,618 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,623 - INFO - Total de Horas 93.48333333333333
+2025-05-22 11:44:09,651 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,658 - INFO - Total de Horas 0
+2025-05-22 11:44:09,680 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,685 - INFO - Total de Horas 0
+2025-05-22 11:44:09,708 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,713 - INFO - Total de Horas 0
+2025-05-22 11:44:09,734 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,740 - INFO - Total de Horas 118.5
+2025-05-22 11:44:09,762 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:09,767 - INFO - Total de Horas 0
+2025-05-22 11:44:09,776 - INFO - Finalizando a geração do PDF.
+2025-05-22 11:44:09,789 - INFO - PDF gerado com sucesso.
+2025-05-22 11:44:47,266 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 11:44:47,368 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 11:44:49,154 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,187 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,192 - INFO - Total de Horas 87.0
+2025-05-22 11:44:49,216 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,221 - INFO - Total de Horas 28.5
+2025-05-22 11:44:49,242 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,247 - INFO - Total de Horas 80.96666666666667
+2025-05-22 11:44:49,272 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,277 - INFO - Total de Horas 0
+2025-05-22 11:44:49,297 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,303 - INFO - Total de Horas 0
+2025-05-22 11:44:49,323 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,327 - INFO - Total de Horas 83.0
+2025-05-22 11:44:49,349 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 11:44:49,354 - INFO - Total de Horas 93.48333333333333
+2025-05-22 11:44:49,359 - INFO - Finalizando a geração do PDF.
+2025-05-22 11:44:49,372 - INFO - PDF gerado com sucesso.
+2025-05-22 11:44:52,079 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 11:59:58,409 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:00:35,819 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:01:21,221 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:01:21,325 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 12:01:23,376 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,406 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,411 - INFO - Total de Horas 87.0
+2025-05-22 12:01:23,435 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,441 - INFO - Total de Horas 28.5
+2025-05-22 12:01:23,463 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,467 - INFO - Total de Horas 80.96666666666667
+2025-05-22 12:01:23,488 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,493 - INFO - Total de Horas 0
+2025-05-22 12:01:23,514 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,519 - INFO - Total de Horas 0
+2025-05-22 12:01:23,540 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,545 - INFO - Total de Horas 83.0
+2025-05-22 12:01:23,566 - INFO - Período de consulta 2: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:01:23,572 - INFO - Total de Horas 93.48333333333333
+2025-05-22 12:01:23,577 - INFO - Finalizando a geração do PDF.
+2025-05-22 12:01:23,593 - INFO - PDF gerado com sucesso.
+2025-05-22 12:14:03,855 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:13,989 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:16,367 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:17,427 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:18,688 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:21,742 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:22,719 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:23,550 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:25,015 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:37,337 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:41,991 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:54,889 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:14:55,026 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 12:14:56,855 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:14:56,865 - INFO - Filtro de colaboradores aplicado: 6 colaboradores selecionados
+2025-05-22 12:14:56,870 - INFO - Total de Horas para Leandro Castro: 87.0
+2025-05-22 12:14:56,876 - INFO - Total de Horas para Nuno Salgado: 28.5
+2025-05-22 12:14:56,881 - INFO - Total de Horas para Reynaldo Cruz: 80.96666666666667
+2025-05-22 12:14:56,885 - INFO - Total de Horas para Suporte IBMi Tech: 0
+2025-05-22 12:14:56,890 - INFO - Total de Horas para Oscar Miranda: 83.0
+2025-05-22 12:14:56,895 - INFO - Total de Horas para Mara Lopes: 93.48333333333333
+2025-05-22 12:14:56,899 - INFO - Finalizando a geração do PDF.
+2025-05-22 12:14:56,913 - INFO - PDF gerado com sucesso.
+2025-05-22 12:31:15,102 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:38,184 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 12:31:39,686 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:44,157 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:46,003 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:46,694 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:47,166 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:48,343 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:48,893 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:49,553 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:50,115 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:31:52,942 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:32:11,373 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:32:21,284 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:32:21,411 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 12:32:23,376 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 12:32:23,388 - INFO - Filtro de colaboradores aplicado: 6 colaboradores selecionados
+2025-05-22 12:32:23,394 - INFO - Total de Horas para Leandro Castro: 87.0
+2025-05-22 12:32:23,400 - INFO - Total de Horas para Nuno Salgado: 28.5
+2025-05-22 12:32:23,406 - INFO - Total de Horas para Reynaldo Cruz: 80.96666666666667
+2025-05-22 12:32:23,412 - INFO - Total de Horas para Suporte IBMi Tech: 0
+2025-05-22 12:32:23,416 - INFO - Total de Horas para Oscar Miranda: 83.0
+2025-05-22 12:32:23,423 - INFO - Total de Horas para Mara Lopes: 93.48333333333333
+2025-05-22 12:32:23,433 - INFO - Finalizando a geração do PDF.
+2025-05-22 12:32:23,446 - INFO - PDF gerado com sucesso.
+2025-05-22 12:38:50,542 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:41:33,027 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:41:37,357 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 12:41:49,856 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-22 12:50:03,985 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:50:16,149 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:50:23,996 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:50:32,977 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:51:17,474 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:51:22,823 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:51:24,471 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:08,965 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:11,097 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:17,767 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:19,969 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:23,802 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:28,857 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:45,116 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:52:49,336 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:53:15,169 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 12:53:29,169 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:57:46,548 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:57:50,579 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:57:57,954 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:00,349 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:01,813 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:02,325 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:05,458 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:13,090 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:14,714 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:15,958 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:25,781 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:26,524 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:27,144 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:58:57,207 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:59:38,302 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 14:59:38,422 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 14:59:40,245 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 14:59:40,255 - INFO - Filtro de colaboradores aplicado: 6 colaboradores selecionados
+2025-05-22 14:59:40,261 - INFO - Total de Horas para Leandro Castro: 87.0
+2025-05-22 14:59:40,267 - INFO - Total de Horas para Nuno Salgado: 28.5
+2025-05-22 14:59:40,272 - INFO - Total de Horas para Reynaldo Cruz: 83.71666666666667
+2025-05-22 14:59:40,278 - INFO - Total de Horas para Suporte IBMi Tech: 0
+2025-05-22 14:59:40,282 - INFO - Total de Horas para Oscar Miranda: 83.0
+2025-05-22 14:59:40,288 - INFO - Total de Horas para Mara Lopes: 93.48333333333333
+2025-05-22 14:59:40,294 - INFO - Finalizando a geração do PDF.
+2025-05-22 14:59:40,311 - INFO - PDF gerado com sucesso.
+2025-05-22 14:59:40,331 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 14:59:40,341 - INFO - Filtro de colaboradores aplicado: 6 colaboradores selecionados
+2025-05-22 14:59:40,345 - INFO - Total de Horas para Leandro Castro: 87.0
+2025-05-22 14:59:40,350 - INFO - Total de Horas para Nuno Salgado: 28.5
+2025-05-22 14:59:40,355 - INFO - Total de Horas para Reynaldo Cruz: 83.71666666666667
+2025-05-22 14:59:40,361 - INFO - Total de Horas para Suporte IBMi Tech: 0
+2025-05-22 14:59:40,367 - INFO - Total de Horas para Oscar Miranda: 83.0
+2025-05-22 14:59:40,374 - INFO - Total de Horas para Mara Lopes: 93.48333333333333
+2025-05-22 14:59:40,443 - INFO - Excel gerado com sucesso: C:\Windows\TEMP\tmpavvh4whh\relatorio_indicadores_colaboradores.xlsx
+2025-05-22 15:03:25,155 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 15:03:57,771 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 15:03:57,903 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-22 15:04:01,982 - INFO - PDF gerado com sucesso.
+2025-05-22 15:05:04,651 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 15:05:04,780 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-22 15:05:09,975 - INFO - PDF gerado com sucesso.
+2025-05-22 16:47:32,248 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:47:34,397 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-22 16:47:38,420 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:47:41,022 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 16:47:44,817 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:48:04,588 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:48:04,705 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-22 16:48:07,372 - INFO - Projetos obtidos: 17
+2025-05-22 16:48:07,553 - INFO - Salvando PDF em: C:\Windows\TEMP\tmps47pkfq3\relatorio_indicadores_projetos.pdf
+2025-05-22 16:48:07,556 - INFO - PDF gerado com sucesso.
+2025-05-22 16:51:02,374 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:51:02,513 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-22 16:51:05,056 - INFO - Projetos obtidos: 17
+2025-05-22 16:51:05,215 - INFO - Salvando PDF em: C:\Windows\TEMP\tmpz1xxb90h\relatorio_indicadores_projetos.pdf
+2025-05-22 16:51:05,218 - INFO - PDF gerado com sucesso.
+2025-05-22 16:51:08,630 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:54:07,769 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 16:54:07,908 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-22 16:54:10,648 - INFO - Projetos obtidos: 17
+2025-05-22 16:54:10,844 - INFO - Salvando PDF em: C:\Windows\TEMP\tmp9th1jsnd\relatorio_indicadores_projetos.pdf
+2025-05-22 16:54:10,847 - INFO - PDF gerado com sucesso.
+2025-05-22 17:20:50,875 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:11,084 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:22,520 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:25,939 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:29,409 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:32,847 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:33,523 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:36,867 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:53,343 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:54,895 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:56,809 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 21:59:59,494 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 22:00:00,509 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 22:00:01,210 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 22:00:14,385 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 22:01:06,991 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-22 22:01:07,105 - INFO - Iniciando a geração do relatório PDF.
+2025-05-22 22:01:08,804 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 22:01:08,814 - INFO - Filtro de colaboradores aplicado: 6 colaboradores selecionados
+2025-05-22 22:01:08,820 - INFO - Total de Horas para Leandro Castro: 87.0
+2025-05-22 22:01:08,825 - INFO - Total de Horas para Nuno Salgado: 32.0
+2025-05-22 22:01:08,829 - INFO - Total de Horas para Reynaldo Cruz: 83.71666666666667
+2025-05-22 22:01:08,834 - INFO - Total de Horas para Suporte IBMi Tech: 0
+2025-05-22 22:01:08,838 - INFO - Total de Horas para Oscar Miranda: 83.0
+2025-05-22 22:01:08,843 - INFO - Total de Horas para Mara Lopes: 98.98333333333333
+2025-05-22 22:01:08,848 - INFO - Finalizando a geração do PDF.
+2025-05-22 22:01:08,861 - INFO - PDF gerado com sucesso.
+2025-05-22 22:01:08,880 - INFO - Período de consulta: de 2025-05-01 até 2025-05-31 23:59:59
+2025-05-22 22:01:08,891 - INFO - Filtro de colaboradores aplicado: 6 colaboradores selecionados
+2025-05-22 22:01:08,896 - INFO - Total de Horas para Leandro Castro: 87.0
+2025-05-22 22:01:08,902 - INFO - Total de Horas para Nuno Salgado: 32.0
+2025-05-22 22:01:08,907 - INFO - Total de Horas para Reynaldo Cruz: 83.71666666666667
+2025-05-22 22:01:08,911 - INFO - Total de Horas para Suporte IBMi Tech: 0
+2025-05-22 22:01:08,916 - INFO - Total de Horas para Oscar Miranda: 83.0
+2025-05-22 22:01:08,920 - INFO - Total de Horas para Mara Lopes: 98.98333333333333
+2025-05-22 22:01:09,310 - INFO - Excel gerado com sucesso: C:\Windows\TEMP\tmpd9azjmd6\relatorio_indicadores_colaboradores.xlsx
+2025-05-22 22:03:37,912 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 22:04:16,417 - INFO - Iniciando a geração do relatório de indicadores de projetos.
+2025-05-22 22:04:16,521 - INFO - Iniciando a geração do relatório PDF de projetos.
+2025-05-22 22:04:19,989 - INFO - Projetos obtidos: 22
+2025-05-22 22:04:20,186 - INFO - Salvando PDF em: C:\Windows\TEMP\tmpz0t2nzf7\relatorio_indicadores_projetos.pdf
+2025-05-22 22:04:20,189 - INFO - PDF gerado com sucesso.
+2025-05-23 09:38:43,229 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-25 01:56:14,652 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-25 01:56:24,802 - INFO - Iniciando a geração do relatório de indicadores de faturação.
+2025-05-25 21:28:10,988 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-26 09:11:52,003 - INFO - Iniciando a geração do relatório de indicadores de colaboradores.
+2025-05-26 09:11:58,471 - INFO - Iniciando a geração do relatório de indicadores de faturação.
